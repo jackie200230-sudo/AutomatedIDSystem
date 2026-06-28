@@ -2,29 +2,26 @@
 bin/
 obj/
 publish/
-_archive/
+build/
 
-# IDE
+# Logs
+*.log
+
+# Runtime / archives
+_archive/
+*.tmp
+
+# Windows
+Thumbs.db
+
+# Visual Studio / .NET
 .vs/
 *.user
 *.suo
 
-# Runtime / binaries
-*.dll
-*.exe
-*.pdb
-*.log
-
-# Images (optional if you don't want them tracked)
-kagawarang1.png
-maragusan logo1.png
-
-# Scripts (optional)
-publish-win.ps1
-
-# WebView / cache
+# WebView2 cache (VERY IMPORTANT in your case)
 **/WebView2/
 
-# OS
-Thumbs.db
-.DS_Store
+# Output executables
+*.exe
+*.dll
