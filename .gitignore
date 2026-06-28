@@ -1,0 +1,29 @@
+# ===== Build output =====
+bin/
+obj/
+publish/
+build/
+out/
+_archive/
+
+# ===== IDE =====
+.vs/
+*.user
+*.suo
+
+# ===== Executables / binaries =====
+*.exe
+*.dll
+*.pdb
+*.deps.json
+*.runtimeconfig.json
+
+# ===== Logs =====
+*.log
+
+# ===== WebView / cache =====
+**/WebView2/
+
+# ===== OS =====
+Thumbs.db
+.DS_Store

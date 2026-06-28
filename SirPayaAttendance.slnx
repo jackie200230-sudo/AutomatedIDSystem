@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/SirPayaAttendance.Desktop/SirPayaAttendance.Desktop.csproj" />
+    <Project Path="src/SirPayaAttendance.Domain/SirPayaAttendance.Domain.csproj" />
+    <Project Path="src/SirPayaAttendance.Infrastructure/SirPayaAttendance.Infrastructure.csproj" />
+    <Project Path="src/SirPayaAttendance.Web/SirPayaAttendance.Web.csproj" />
+  </Folder>
+</Solution>
