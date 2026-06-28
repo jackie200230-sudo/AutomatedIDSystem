@@ -1,0 +1,13 @@
+bin/
+obj/
+.vs/
+publish/
+*.user
+*.suo
+*.log
+*.exe
+*.dll
+*.pdb
+node_modules/
+_archive/
+publish/
