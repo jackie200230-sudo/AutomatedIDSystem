@@ -1,13 +1,30 @@
+# Build outputs
 bin/
 obj/
-.vs/
 publish/
+_archive/
+
+# IDE
+.vs/
 *.user
 *.suo
-*.log
-*.exe
+
+# Runtime / binaries
 *.dll
+*.exe
 *.pdb
-node_modules/
-_archive/
-publish/
+*.log
+
+# Images (optional if you don't want them tracked)
+kagawarang1.png
+maragusan logo1.png
+
+# Scripts (optional)
+publish-win.ps1
+
+# WebView / cache
+**/WebView2/
+
+# OS
+Thumbs.db
+.DS_Store
