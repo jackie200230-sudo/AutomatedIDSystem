@@ -1,29 +1,30 @@
-# ===== Build output =====
+# Build outputs
 bin/
 obj/
 publish/
-build/
-out/
 _archive/
 
-# ===== IDE =====
+# IDE
 .vs/
 *.user
 *.suo
 
-# ===== Executables / binaries =====
-*.exe
+# Runtime / binaries
 *.dll
+*.exe
 *.pdb
-*.deps.json
-*.runtimeconfig.json
-
-# ===== Logs =====
 *.log
 
-# ===== WebView / cache =====
+# Images (optional if you don't want them tracked)
+kagawarang1.png
+maragusan logo1.png
+
+# Scripts (optional)
+publish-win.ps1
+
+# WebView / cache
 **/WebView2/
 
-# ===== OS =====
+# OS
 Thumbs.db
 .DS_Store
